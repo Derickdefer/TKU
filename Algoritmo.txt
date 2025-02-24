@@ -1,0 +1,27 @@
+1. Iniciar programa.
+2. Mostrar mensaje de bienvenida.
+   a. Solicitar nombre del asegurado.
+      i. Si nombre es "Salir", ir al paso 8.
+   b. Solicitar edad del asegurado.
+      i. Si edad < 18, mostrar error y volver al paso 3a.
+   c. Preguntar si está casado.
+      i. Si está casado, solicitar edad del cónyuge.
+   d. Preguntar si tiene hijos.
+      i. Si tiene hijos, solicitar cantidad de hijos.
+   e. Solicitar cantidad de propiedades.
+   f. Solicitar salario mensual.
+   g. Calcular recargos:
+      i. Recargo por edad del asegurado.
+      ii. Recargo por edad del cónyuge (si aplica).
+      iii. Recargo por hijos.
+      iv. Recargo por propiedades.
+      v. Recargo por salario.
+   h. Calcular precio final:
+      i. Sumar recargos al precio base.
+   i. Mostrar recargo total y precio final.
+3.preguntar si necesita hacer otra cotizacion
+4. si el usuario ingresa "Si"
+   a. regresar a paso 2.
+5. Si el usuario ingresa "Salir":
+   a. Mostrar mensaje de despedida.
+6. Terminar programa.
